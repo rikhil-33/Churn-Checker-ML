@@ -1,0 +1,21 @@
+Tenure,DaySinceLastOrder,OrderCount,CashbackAmount,OrderAmountHikeFromlastYear,Complain,SatisfactionScore,WarehouseToHome,MaritalStatus,PreferredPaymentMode,CityTier,OrderPerDay,ComplainPerTenure,IsNewCustomer
+17.0,8.0,8.0,181.75,21.0,0,1,9.0,Married,Debit Card,3,0.8888888888888888,0.0,0
+26.0,,1.0,209.33999999999997,18.0,1,1,13.0,Married,E wallet,3,,0.037037037037037035,0
+5.0,9.0,2.0,169.24,24.0,0,1,15.0,Single,Debit Card,1,0.2,0.0,0
+25.0,2.0,2.0,132.12,15.0,0,2,8.0,Single,Debit Card,1,0.6666666666666666,0.0,0
+4.0,6.0,9.0,198.52,19.0,1,3,8.0,Married,Debit Card,3,1.2857142857142858,0.2,0
+24.0,7.0,2.0,320.17,,0,1,7.0,Married,Credit Card,3,0.25,0.0,0
+12.0,6.0,8.0,177.49,19.0,0,2,9.0,Divorced,Debit Card,3,1.1428571428571428,0.0,0
+19.0,3.0,2.0,147.7,15.0,0,2,7.0,Married,Credit Card,1,0.5,0.0,0
+5.0,2.0,2.0,193.33,13.0,1,5,18.0,Divorced,Credit Card,1,0.6666666666666666,0.16666666666666666,0
+20.0,0.0,3.0,267.52,11.0,1,2,8.0,Divorced,UPI,1,3.0,0.047619047619047616,0
+16.0,2.0,1.0,148.76,12.0,0,4,33.0,Married,Cash on Delivery,1,0.3333333333333333,0.0,0
+0.0,9.0,1.0,187.22,12.0,0,5,30.0,Single,Cash on Delivery,1,0.1,0.0,1
+19.0,12.0,10.0,177.1,19.0,0,5,14.0,Married,Debit Card,1,0.7692307692307693,0.0,0
+22.0,8.0,7.0,165.51,15.0,0,1,9.0,Married,E wallet,3,0.7777777777777778,0.0,0
+2.0,9.0,2.0,170.58,13.0,0,5,24.0,Married,Credit Card,1,0.2,0.0,1
+19.0,7.0,7.0,268.72,12.0,1,4,8.0,Married,Cash on Delivery,3,0.875,0.05,0
+,3.0,1.0,120.44,11.0,0,1,6.0,Married,Debit Card,1,0.25,,0
+8.0,2.0,2.0,135.06,14.0,1,3,12.0,Divorced,Debit Card,1,0.6666666666666666,0.1111111111111111,0
+10.0,2.0,,236.02999999999997,18.0,1,2,6.0,Married,Credit Card,1,,0.09090909090909091,0
+18.0,4.0,3.0,184.33,13.0,0,4,11.0,Single,Credit Card,1,0.6,0.0,0

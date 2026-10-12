@@ -1,0 +1,45 @@
+{
+    "model_comparison": {
+        "Logistic Regression": {
+            "Accuracy": 0.8010657193605684,
+            "Precision": 0.45,
+            "Recall": 0.8052631578947368,
+            "F1": 0.5773584905660377,
+            "ROC-AUC": 0.8689946018893386
+        },
+        "Random Forest": {
+            "Accuracy": 0.9698046181172292,
+            "Precision": 0.8786407766990292,
+            "Recall": 0.9526315789473684,
+            "F1": 0.9141414141414141,
+            "ROC-AUC": 0.9957124381466487
+        },
+        "XGBoost (HistGradient)": {
+            "Accuracy": 0.9413854351687388,
+            "Precision": 0.7627118644067796,
+            "Recall": 0.9473684210526315,
+            "F1": 0.8450704225352113,
+            "ROC-AUC": 0.9888214125056229
+        }
+    },
+    "best_model": "XGBoost (HistGradient)",
+    "best_metrics": {
+        "Accuracy": 0.9413854351687388,
+        "Precision": 0.7627118644067796,
+        "Recall": 0.9473684210526315,
+        "F1": 0.8450704225352113,
+        "ROC-AUC": 0.9888214125056229
+    },
+    "top_features": {
+        "Tenure": 0.19210861249961603,
+        "CashbackAmount": 0.12579724451026011,
+        "IsNewCustomer": 0.10352066317178428,
+        "WarehouseToHome": 0.07351054247858078,
+        "ComplainPerTenure": 0.06938341617384776,
+        "OrderAmountHikeFromlastYear": 0.062102438688084766,
+        "OrderPerDay": 0.05930638411354929,
+        "SatisfactionScore": 0.05927377836644509,
+        "DaySinceLastOrder": 0.052374084489680846,
+        "Complain": 0.04557066300239878
+    }
+}
