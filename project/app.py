@@ -5,6 +5,9 @@ import joblib
 import json
 import plotly.graph_objects as go
 import plotly.express as px
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
 
 st.set_page_config(page_title="Churn Check", page_icon="📉", layout="centered")
 
@@ -28,11 +31,11 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    return joblib.load('churn_pipeline.pkl')
+    return joblib.load(BASE_DIR / 'churn_pipeline.pkl')
 
 @st.cache_data
 def load_metrics():
-    with open('metrics.json', 'r') as f:
+    with open(BASE_DIR / 'metrics.json', 'r') as f:
         return json.load(f)
 
 try:
@@ -160,7 +163,7 @@ with tab2:
     st.write("Upload a CSV file of multiple customers to score them all at once.")
     
     try:
-        sample_df = pd.read_csv("sample_customers.csv")
+        sample_df = pd.read_csv(BASE_DIR / "sample_customers.csv")
         csv = sample_df.to_csv(index=False).encode('utf-8')
         st.download_button(
             label="Download sample CSV",
